@@ -1,4 +1,3 @@
-
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -34,6 +33,9 @@ const nextConfig: NextConfig = {
         destination: "/feed/feed.json",
       },
     ];
+  },
+  images: {
+    remotePatterns: [],
   },
 };
 
