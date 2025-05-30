@@ -19,7 +19,48 @@ export default function Page() {
           شاركت في أعمال جماعية مثل: أنين أقلام، نوركان، فتات قلب سجين العقل، ملتقى الأغراب، رغبة الرحيل، قلب أحمق،
           ومتاهات الإدراك.
         </p>
-        <p>من مؤلفاتي: روبوت يحتل العالم، دموع اشتياق، وما يبوح به داخلي، وهو عمل جماعي قدت فكرته وكتابته.</p>
+        <p className="mb-12">
+          من مؤلفاتي: روبوت يحتل العالم، دموع اشتياق، وما يبوح به داخلي، وهو عمل جماعي قدت فكرته وكتابته.
+        </p>
+      </div>
+
+      {/* Books Section */}
+      <div className="mt-16">
+        <h2 className="text-xl font-bold mb-8 text-center">مؤلفاتي</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Book 1 */}
+          <div className="group relative">
+            <div className="aspect-[3/4] relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 group-hover:scale-[1.02]">
+              <Image src="/books/book-1.jpeg" alt="روبوت يحتل العالم" fill className="object-cover" />
+            </div>
+            <div className="mt-4 text-center">
+              <h3 className="font-bold mb-1">روبوت يحتل العالم</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">رواية تتخيل سيطرة الذكاء الاصطناعي على العالم</p>
+            </div>
+          </div>
+
+          {/* Book 2 */}
+          <div className="group relative">
+            <div className="aspect-[3/4] relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 group-hover:scale-[1.02]">
+              <Image src="/books/book-2.jpeg" alt="دموع اشتياق" fill className="object-cover" />
+            </div>
+            <div className="mt-4 text-center">
+              <h3 className="font-bold mb-1">دموع اشتياق</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">مجموعة من الخواطر والمشاعر</p>
+            </div>
+          </div>
+
+          {/* Book 3 */}
+          <div className="group relative">
+            <div className="aspect-[3/4] relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 group-hover:scale-[1.02]">
+              <Image src="/books/book-3.jpeg" alt="ما يبوح به داخلي" fill className="object-cover" />
+            </div>
+            <div className="mt-4 text-center">
+              <h3 className="font-bold mb-1">ما يبوح به داخلي</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">عمل جماعي قدت فكرته وكتابته</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
