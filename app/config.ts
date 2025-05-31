@@ -2,7 +2,7 @@ export const metaData = {
   baseUrl: "https://aswara.vercel.app/",
   title: "Aswara",
   name: "Aswara",
-  ogImage: "/me.avif",
+  ogImage: "/me.jpeg",
   description: "رفيقة القلم والكتابة. أكتب بحثًا عن لحظة هادئة ينمو فيها الخيال وتهمس فيها المشاعر.",
 };
 

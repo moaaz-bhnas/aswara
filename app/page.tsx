@@ -4,9 +4,9 @@ export default function Page() {
   return (
     <section>
       <Image
-        src="/me.avif"
+        src="/me.jpeg"
         alt="الصورة الشخصية"
-        className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-left sm:ms-5 sm:mb-5"
+        className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-left sm:ms-5 sm:mb-5 aspect-square object-cover"
         width={160}
         height={160}
         priority
